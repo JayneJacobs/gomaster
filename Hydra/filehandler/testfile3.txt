@@ -1,0 +1,11 @@
+This is the first linebreaks
+This is the second
+this is the third
+
+llllllastAdded line 1
+Added line 2
+Added line 3
+Added line 4
+Added line 5
+Testing watcher
+Hello

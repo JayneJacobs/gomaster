@@ -1,0 +1,14 @@
+ <instrument name="Sax">
+   <key>G</key>
+   <octaves>3</octaves>
+   <players>
+     <member name="Scott">
+       <age>60</age>
+       <email>scooper@gmail.com</email>
+       <accessCodes>
+         <code>Keys</code>
+         <code>Drums</code>
+       </accessCodes>
+     </member>
+   </players>
+ </instrument>

@@ -1,0 +1,4 @@
+Hydra hydrachat.go:18: Just in Run function
+Hydra hydrachat.go:25: Just in Run function past error
+Hydra rooms.go:67: Starting chat room HydraChat
+Hydra rooms.go:69: In go routine HydraChat
