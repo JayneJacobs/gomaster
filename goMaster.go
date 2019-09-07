@@ -1,7 +1,7 @@
 package main
 
 import (
-	"gotrain/goMaster/protobuf"
+	"gotrain/goMaster/webex/clienttest"
 )
 
 func main() {
@@ -62,5 +62,7 @@ func main() {
 
 	//tcpserver.Ex()
 	// udpserver.Ex()
-	protobuf.Ex()
+	// protobuf.Ex()
+	//webex.Run()
+	clienttest.Ex()
 }
