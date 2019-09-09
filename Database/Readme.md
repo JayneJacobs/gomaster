@@ -57,3 +57,4 @@ CREATE USER 'hydra'@'%' IDENTIFIED BY 'hydraisme';
 GRANT All PRIVILEGES ON Hydra.* TO 'hydra'@'%';
 FLUSH PRIVILEGES;
 ```
+[Database Examples](../dbex/dbrestapiEx.go)

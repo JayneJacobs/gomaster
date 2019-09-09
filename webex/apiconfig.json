@@ -1,0 +1,4 @@
+{
+  "database": "mysql",
+  "connectionstring": "hydra:hydraisme@/Hydra"
+}
