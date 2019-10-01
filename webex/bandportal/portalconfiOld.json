@@ -1,0 +1,10 @@
+{
+ "filespath": "bandportal/cover/",
+ "templates": ["bandportal/cover/band/band.html_go",
+        "bandportal/cover/about/about.html_go",
+        "bandportal/cover/chat/chat.html_go",
+        "bandportal/cover/chat/login.html_go",
+        "bandportal/cover/common/header.html_go",
+        "bandportal/cover/common/footer.html_go",
+        "bandportal/cover/common/index.html_go"]
+}

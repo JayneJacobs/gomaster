@@ -1,0 +1,39 @@
+{{template "header"}}
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">Band</h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li><a href="/">Home</a></li>
+                  <li class="active"><a href="/band/">Band</a></li>
+                  <li><a href="/chat/">Chat</a></li>
+                  <li><a href="/about/">About</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="inner cover well tablescroll">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>id</th>
+                  <th>Name</th>
+                  <th>Security Clearance</th>
+                  <th>Position</th>
+                </tr>
+              </thead>
+              <tbody>
+                {{range .}}
+                <tr>
+                  <th scope="row">{{.ID}}</th>
+                  <td>{{.Name}}</td>
+                  <td>{{.SecurityClearance}}</td>
+                  <td>{{.Position}}</td>
+                </tr>
+                {{end}}
+              </tbody>
+            </table>
+</div>
+{{template "footer"}}

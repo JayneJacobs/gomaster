@@ -1,0 +1,4 @@
+Band bandchat.go:18: Just in Run function
+Band bandchat.go:25: Just in Run function past error
+Band rooms.go:67: Starting chat room BandChat
+Band rooms.go:69: In go routine BandChat

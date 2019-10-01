@@ -23,6 +23,12 @@ uncomment this block
 
 ?field1=value1&field2=value2...
 
+# Web Templates
+
+* Use the bootstrap framework
+* getbootstrap.com
+
+
 
 URL type implements func(*URL)Query
 
@@ -34,3 +40,23 @@ uncomment this block
 uncomment 
 uncomment this block
 <a href="./webEx.go#L17"> L13-16</a>
+
+#Security
+
+HTTPS/TLS
+
+* Secure HTTP
+* Enrypt data and authenticate with certificates
+* Activated in Go by http.ListenAndServeTLS()
+
+[OpenSSL Website](https://openssl.org)
+
+
+Generate Certs 
+
+```
+openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout key.pem -out cert.pem
+
+
+Common Name localhost:8062
+```

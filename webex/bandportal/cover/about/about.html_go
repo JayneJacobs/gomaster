@@ -1,0 +1,21 @@
+{{template "header"}}
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">Cover</h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li><a href="/">Home</a></li>
+                  <li><a href="/band/">Band</a></li>
+                  <li><a href="/chat/">Chat</a></li>
+                  <li class="active"><a href="/about/">About</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        <div class="inner cover well">
+          <h4>About Us</h4>
+          <p>{{.Msg}}</p>
+        </div>
+
+{{template "footer"}}

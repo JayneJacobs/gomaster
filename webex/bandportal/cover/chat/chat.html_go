@@ -1,0 +1,30 @@
+{{template "header"}}
+
+                    <div class="masthead clearfix">
+                        <div class="inner">
+                            <nav>
+                                <header>
+                                    <ul class="nav masthead-nav">
+                                        <li><a href="/">Home</a></li>
+                                        <li><a href="/band/">Band</a></li>
+                                        <li class="active"><a href="/chat/">Chat</a></li>
+                                        <li><a href="/about/">About</a></li>
+                                    </ul>
+                                </header>
+                            </nav>
+                        </div>
+                    </div>
+
+
+                    <div class="inner cover well tablescroll">
+                    <div>
+                        <ul class="list-unstyled" id="messages"></ul>
+                    </div>    
+                        <form id="chatbox">
+                            <label for="chat">{{.Name}}:</label>
+                            <textarea class="form-control" rows="1" id="chat"></textarea>
+                            <button class="btn btn-sm btn-primary" id="submit"   type="submit">Send</button>
+                        </form>
+                    </div>
+
+ {{template "footer"}}

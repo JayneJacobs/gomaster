@@ -1,8 +1,8 @@
 package restapi
 
 import (
-	"gotrain/goMaster/Hydra/hydraconfigurator"
 	"gotrain/goMaster/dbex/dbrestapi"
+	"gotrain/goMaster/webex/configurate"
 	"log"
 	"net/http"
 )
@@ -16,7 +16,7 @@ type DBlayerconfig struct {
 // InitializeAPIHandlers Provides a new handler
 func InitializeAPIHandlers() error {
 	conf := new(DBlayerconfig)
-	err := hydraconfigurator.GetConfiguration(hydraconfigurator.JSON, conf, "../../apiconfig.json")
+	err := configurate.GetConfiguration(configurate.JSON, conf, "./apiconfig.json")
 	if err != nil {
 		log.Println("Error decoding Json", err)
 		return err
@@ -27,8 +27,8 @@ func InitializeAPIHandlers() error {
 		log.Panicln("Error connecting to db", err)
 		return err
 	}
-	http.HandleFunc("/band/", h.HandleBandRequests)
-	// http.Handle("/band/", h)//If uncomenting SERVEHTTP version
+	http.HandleFunc("/findmember/", h.HandleBandRequests)
+	// http.Handle("/member/", h)//If uncomenting SERVEHTTP version
 	return nil
 }
 

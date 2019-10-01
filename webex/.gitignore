@@ -1,0 +1,4 @@
+#ignore certs
+cert.pem
+key.pem
+*.db

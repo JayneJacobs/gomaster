@@ -1,0 +1,5 @@
+Hydra goMaster.go:99: Starting Web Service
+Hydra bandchat.go:18: Just in Run function
+Hydra bandchat.go:25: Just in Run function past error
+Hydra rooms.go:67: Starting chat room BandChat
+Hydra rooms.go:69: In go routine BandChat

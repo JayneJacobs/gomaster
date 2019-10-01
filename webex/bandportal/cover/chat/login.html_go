@@ -1,0 +1,35 @@
+{{template "header"}}
+
+                    <div class="masthead clearfix">
+                        <div class="inner">
+                            <h3 class="masthead-brand">Asylum Wind Band</h3>
+                            <nav>
+                                <ul class="nav masthead-nav">
+                                    <li class="active"><a href="/">Home</a></li>
+                                    <li><a href="/band/">Band</a></li>
+                                    <li><a href="/chat/">Chat</a></li>
+                                    <li><a href="/about/">About</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+ 
+            <div class="inner cover well">
+                <form class="form-signin" method="post" action="/chat/">
+                    <h2 class="form-signin-heading">Please sign in</h2>
+                    <label for="input" class="sr-only">User</label>
+                    <input type="text" id="input" class="form-control" placeholder="Username" name = "username" required autofocus>
+                    <label for="inputPassword" class="sr-only">Password</label>
+                    <input type="password" id="inputPassword" class="form-control" placeholder="Password" name = "password" required>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="rememberme" value="true"> Remember me
+                        </label>
+                    </div>
+                    <button class="btn btn-lg btn-primary" type="submit">
+                        Sign in
+                    </button>
+                </form>
+            </div>
+
+{{template "footer"}}

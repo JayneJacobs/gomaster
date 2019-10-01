@@ -1,9 +1,11 @@
 package main
 
 import (
+	"fmt"
 	"gotrain/goMaster/webex/restapi"
 )
 
 func main() {
-	restapi.RunAPI()
+	err := restapi.RunAPI()
+	fmt.Println("Error in runAPI,", err)
 }
